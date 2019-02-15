@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/form.css" />
+
+	</head>
+
+	<body>
+		<!--header-->
+		<header>
+			<img src="img/b12.png" />
+			<span>已经有团800或者这折800长好了？</span>
+			<a href="">去登陆</a>
+		</header>
+		<main>
+			<form action="form.php" method="post">
+				<ul>
+				<li>
+					<span>手机号码:</span>
+					<input type="text" id="userPhone" class="userName" onBlur="checkPhone()" oninput="checkPhone()" name="uname">
+					<p class="default" id="phoneErr">请输入手机号</p>
+				</li>
+				<li>
+					<span>密码：</span>
+      				<input type="password" id="userPasword" class="userName" onBlur="checkPassword()" oninput="checkPassword()" name="upwd">
+					<p class="default" id="passwordErr">请输入密码</p>
+				</li>
+				<li>
+					<span>确认密码:</span>
+      				<input type="password" id="userConfirmPasword" class="userName" onBlur="ConfirmPassword()" oninput="ConfirmPassword()"> 
+					<p class="default" id="conPasswordErr">请再次输入密码</p>
+				</li>
+
+				<li class="verify-wrap" id="verify-wrap2"></li>
+				<li>
+					<span>验证码：</span>
+					<input type="text" name="" id="" />
+					<input type="button" name="" id="" value="免费获取验证码" style="background:#e1dede;" />
+					<p class="default" id="nameErr">请输入验证密码</p>
+				</li>
+			</ul>
+			
+				<label>
+					<input type="checkbox" name="check">
+					我已阅读并接受折800的《用户服务协议》
+				</label>
+				<div >
+                    <input type="submit" name="" id="divBtn"  value="同意协议并注册"/>
+				</div>
+				
+				
+			</form>
+			<aside>
+				<p><img src="img/b14.png"/></p>
+				<p>
+					<img src="img/b15.png"/>
+					<img src="img/b17.png"/>
+					<span>更多﹀</span>
+				</p>
+			</aside>
+				
+			</div>
+			
+		</main>
+		<!--footer-->
+		<footer>
+			<p>京ICP证120075号 京ICP备10051110-5 
+				京公网备1101050205623 统一社会
+				信用代码 911110105571298269B 食品流通许可证SP
+				11010511510352397</p>
+			<h4>
+				<img src="img/b19.png"/>
+				<img src="img/b20.png" style="width:80px;height:29px"/>
+				<img src="img/b21.png"/>
+			</h4>
+		</footer>
+	</body>
+
+</html>
+<script type="text/javascript" src="js/jquery-1.11.1.js">
+</script>
+<script type="text/javascript" src="js/jq-slideVerify.js">
+</script>
+<script type="text/javascript" src="js/form.js">
+</script>

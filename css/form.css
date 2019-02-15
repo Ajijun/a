@@ -1,0 +1,121 @@
+*{margin:0;padding:0;}
+li{list-style: none;}
+a{text-decoration: none;}
+body,html{height: 100%;background: #f6f6f6;}
+/*header*/
+header{
+	height: 88px;
+	width:980px;
+	margin: 0 auto;
+	
+}
+header img{
+	padding-top:20px;
+	
+}
+header span{
+	margin-left:517px;
+	font-size:10px;
+}
+header a{
+	
+	font-size:10px;
+}
+main{
+	overflow: hidden;
+	height:505px;
+	width:980px;
+	background: white;
+	margin:0 auto;
+}
+main form{
+	float:left;
+	margin-top: 20px;
+}
+main ul li{
+	height:50px;
+	width:500px;
+	margin-bottom:23px;
+	text-align: center;
+}
+main ul li span{
+	display:inline-block ;
+	width:80px;
+	height:20px;
+	text-align:right;
+	font-size:13px;
+}
+main ul li input{
+	height:36px;
+	width: 300px;
+	border-radius: 5px;
+	border: none;
+	border:1px solid black;
+}
+main ul li p{
+	font-size:12px;
+	color:#e1dede;
+}
+main ul li .error{
+	font-size:16px;
+	color:red;
+}
+main ul li .success{
+	font-size:16px;
+	color:green;
+}
+main ul .verify-wrap{
+	margin-left:145px;
+}
+main ul li:last-child{
+	margin-left:10px;
+}
+main ul li:last-child input{
+	width:157px;
+	height:36px;
+	}
+main label{
+		font-size:12px;
+		margin-top:20px;
+		margin-left:145px;
+	}
+main form div a{
+	color:white;
+	padding:12px 42px ;
+	background: red;
+	border-radius:5px;
+}
+main form div{
+	margin-left:145px;
+	margin-top: 20px;
+	
+}
+main aside{
+	float:left;
+	margin-top: 102px;
+}
+main aside p:nth-child(2){
+	margin-top: 24px;
+	margin-left: 97px;
+}
+main aside p span{
+	font-size:12px;
+	padding-left:40px;
+}
+/*footer*/
+footer{
+	clear: both;
+	width:980px;
+	text-align: center;
+	margin:0 auto;
+	height:146px;
+}
+footer p{
+	margin-top:36px;
+	font-size:12px;
+}
+footer h4{
+	margin-top:20px;
+	
+}
+

@@ -1,0 +1,159 @@
+	article{
+	height:505px;
+	width:980px;
+	background: white;
+	margin:0 auto;
+	position: relative;
+
+	}
+	article p img{
+	margin-top:60px;
+	margin-left:100px;
+	float:left;
+}
+article aside{
+	margin-top:61px;
+	position: relative;
+	float:left;
+	width: 310px;
+	height:419px;
+	border:1px solid #d0cbcb;
+	margin-left:78px;
+	
+}
+article aside .tu img{
+	position: absolute;
+	left:256px;
+}
+article aside .tu span{
+	font-size:9px;
+	color:red;
+	width:101px;
+	height:20px;
+	position: absolute;
+	background: url(../img/c4.png) no-repeat center;
+	left:171px;
+	top:10px;
+	line-height: 20px;
+	text-align: center;
+}
+aside form{
+	margin-top:34px;
+	margin-left:15px;
+}
+aside form ul li{
+	
+	margin-top:20px;
+}
+aside form ul li input{
+	width:238px;
+	height:36px;
+}
+aside form ul .verify-wrap{
+	width:238px;
+}
+aside form .deng{
+	margin-top:24px;
+}
+aside form .deng input{
+	width:120px ;
+	height:42px;
+	background: #f03d36;
+	text-align: center;
+	line-height: 42px;
+	color: white;
+	font-size: 15px;
+	border: none;
+	
+}
+aside form .deng a{
+	font-size:12px;
+	margin-left:51px;
+	color: black;
+}
+aside .style{
+	margin-left:15px;
+	margin-top:25px;
+}
+aside .style h6{
+	margin-top:15px;
+}
+aside .style h6 img{
+	padding-right:10px;
+}
+article .weima{
+	
+	margin-top:61px;
+	position: absolute;
+	float:left;
+	width: 310px;
+	height:419px;
+	border:1px solid #d0cbcb;
+	margin-left:78px;
+	
+	background: white;
+	left:561px;
+	top:0px;
+	z-index:7;
+	display:none;
+}
+article .weima .tu img{
+	position: absolute;
+	left:256px;
+}
+article .weima .tu span{
+	font-size:9px;
+	color:red;
+	width:101px;
+	height:20px;
+	position: absolute;
+	background: url(../img/c4.png) no-repeat center;
+	left:171px;
+	top:10px;
+	line-height: 20px;
+	text-align: center;
+}
+.weima .style{
+	margin-left:15px;
+	margin-top:20px;
+}
+.weima .style h6{
+	margin-top:15px;
+}
+.weima.style h6 img{
+	padding-right:10px;
+}
+.weima h3:nth-of-type(1){
+	font-size:18px;
+	margin-top:42px;
+	margin-left:19px;
+}
+.weima h3:nth-of-type(2)img{
+	display: block;
+	height:16px;
+	width:16px;
+	
+	}
+	.weima h3:nth-of-type(2){
+		font-size:12px;
+		font-weight: normal;
+		margin-left:43px;
+		margin-top:30px;
+	}
+	.weima h3:nth-of-type(2) span{
+		color: red;
+		font-size:12px;
+	}
+	.weima .sao{
+		margin-left:83px;
+		margin-top:30px;
+	}
+	.weima .sao p{
+		margin-left: 70px;
+		margin-top:10px;
+	}
+	.weima .sao p a:hover{
+		color:red;
+		border-bottom: 1px solid red;
+	}
+	
